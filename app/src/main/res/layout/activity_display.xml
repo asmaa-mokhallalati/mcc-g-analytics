@@ -10,17 +10,17 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/addBTN"
+        android:id="@+id/foodBTN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="26sp"
         android:textStyle="bold"
         android:textColor="#fff"
         android:background="#000"
-        android:text="Add" />
+        android:text="Food" />
 
     <Button
-        android:id="@+id/displayBTN"
+        android:id="@+id/clothesBTN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="26sp"
@@ -28,5 +28,16 @@
         android:textColor="#fff"
         android:background="#000"
         android:layout_marginTop="20dp"
-        android:text="Display" />
+        android:text="Clothes" />
+
+    <Button
+        android:id="@+id/elictronicBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="#000"
+        android:layout_marginTop="20dp"
+        android:text="Elictronic" />
 </LinearLayout>
