@@ -1,8 +1,9 @@
 package com.asmaa.hw2storageanalytics.Model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Product {
+public class Product implements Serializable {
   private String categoryName;
     private String name;
     private String image;
